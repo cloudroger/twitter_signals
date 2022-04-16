@@ -5,7 +5,7 @@ Can be viewed in action: https://twitter.com/TrendicatorBot
 Running live on Pythonanywhere servers. 
 
 
-# What is this
+# About
 Trend-following trading systems tend to be the most accessible >0 alpha strategies. I developed my own trend-following strategy and thought it would be fun to have a twitter bot tweet out the signals and results. Not concerned about alpha leak (if any) because this is a relatively unsophisticated strategy that would not be difficult to recreate independently.
 
 # How does the strategy work?
