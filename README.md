@@ -6,7 +6,7 @@ Running live on Pythonanywhere servers.
 
 
 # About
-Trend-following trading systems tend to be the most accessible >0 alpha strategies. I developed my own trend-following strategy and thought it would be fun to have a twitter bot tweet out the signals and results. Not concerned about alpha leak (if any) because this is a relatively unsophisticated strategy that would not be difficult to recreate independently.
+Trend-following trading systems tend to be the most accessible >0 alpha strategies. I developed my own trend-following strategy and thought it would be fun to have a twitter bot tweet out the signals and dynamically generated visual results. Not concerned about alpha leak (if any) because this is a relatively unsophisticated strategy that would not be difficult to recreate independently.
 
 # How does the strategy work?
 The algo is a delta-neutral always-in-a-position trend following strategy. Trend followers work a bit counter-intuitively as they tend to 'buy high' and 'sell low' with a <50% win rate. But they typically perform much better than mean-reversion strategies over long periods of time. Effectively the idea is that most trades will be losers, but with small losses, and the few wins will have a much higher HPRs on average. The hope, of course, is that the <1 Risk:Reward ratio is more assymetric than the win/lose rate to produce a positive expected value, or positive alpha.
