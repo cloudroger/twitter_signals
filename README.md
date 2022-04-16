@@ -12,5 +12,5 @@ Trend-following trading systems tend to be the most accessible >0 alpha strategi
 The algo is a delta-neutral always-in-a-position trend following strategy. Trend followers work a bit counter-intuitively as they tend to 'buy high' and 'sell low' with a <50% win rate. But they typically perform much better than mean-reversion strategies over long periods of time. Effectively the idea is that most trades will be losers, but with small losses, and the few wins will have much higher HPRs on average. The hope, of course, is that the <1 Risk:Reward ratio is more asymmetric than the win/lose rate to produce a positive expected value, or positive alpha.
 
 # Execution conditions
-If the position is long, the algo will flip short under the condition of x 1h closes below the y 1h simple moving average. Same vice-versa.
+If the position is long, the algo will flip short under the condition of x consecutive 1h closes below the y 1h simple moving average. Same vice-versa.
 How are x and y determined? Backtesting a grid from a defined range of combinations and picking the parameters with the optimal backtest. This part is not included in the repo.
