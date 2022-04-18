@@ -1,0 +1,5 @@
+pandas
+pause
+twitter
+matplotlib
+numpy
